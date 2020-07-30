@@ -9,7 +9,11 @@
 .message {
     border-radius: 0px !important;
     padding: 30px 25px !important;
-    font-family: 'Open Sans', sans-serif !important;
+    
+    &,
+    * {
+        font-family: 'Open Sans', sans-serif !important;
+    }
 
     .cta-container {
         padding: 0 !important;
@@ -21,15 +25,18 @@
         padding: 10px 30px !important;
         border: 0 !important;
         border-radius: 52px !important;
-        background: #2789fc !important;
         // color: #fff !important;
         font-weight: 300 !important;
         text-transform: uppercase;
         background-image: none !important;
 
-        &:hover {
-            border: 0;
-            background-color: #0053B3 !important;
+        &[style*="color: rgb(255, 255, 255)"] {
+            background: #2789fc !important;
+
+            &:hover {
+                border: 0;
+                background-color: #0053B3 !important;
+            }
         }
     }
 }
