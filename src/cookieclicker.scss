@@ -23,6 +23,16 @@
         [class*="cta-"] {
             background: none !important;
         }
+
+        .cta-link {
+            a {
+                color: #2789fc !important;
+
+                &:hover {
+                    background-color: #0053B3 !important;
+                }
+            }
+        }
     }
 
     .message-button {
