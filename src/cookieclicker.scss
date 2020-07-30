@@ -1,12 +1,15 @@
-@import "partials/vendor";
+// @import "partials/vendor";
 
 // * {
 //     color: red;
 // }
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
 .message {
     border-radius: 0px !important;
     padding: 30px 25px !important;
+    font-family: 'Open Sans', sans-serif !important;
 
     .cta-container {
         padding: 0 !important;
@@ -16,17 +19,17 @@
     .message-button {
         margin: 0 0 0 10px !important;
         padding: 10px 30px !important;
-        border: 0!important;
-        border-radius: 52px!important;
-        background: #2789fc;
+        border: 0 !important;
+        border-radius: 52px !important;
+        background: #2789fc !important;
         // color: #fff !important;
-        font-weight: 300!important;
+        font-weight: 300 !important;
         text-transform: uppercase;
-        background-image: none!important;
+        background-image: none !important;
 
         &:hover {
             border: 0;
-            background-color: #0053B3;
+            background-color: #0053B3 !important;
         }
     }
 }
