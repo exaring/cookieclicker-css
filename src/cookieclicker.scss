@@ -4,24 +4,29 @@
 //     color: red;
 // }
 
-// .message {
-//     border-radius: 0px !important;
-//     padding: 30px 25px !important;
+.message {
+    border-radius: 0px !important;
+    padding: 30px 25px !important;
 
-//     .message-button {
-//         margin: 0 0 0 10px!important;
-//         padding: 10px 30px!important;
-//         border: 0!important;
-//         border-radius: 52px!important;
-//         background: #2789fc;
-//         color: #fff!important;
-//         font-weight: 300!important;
-//         text-transform: uppercase;
-//         background-image: none!important;
+    .cta-container {
+        padding: 0 !important;
+        width: auto !important;
+    }
 
-//         &:hover {
-//             border: 0;
-//             background-color: #0053B3;
-//         }
-//     }
-// }
+    .message-button {
+        margin: 0 0 0 10px !important;
+        padding: 10px 30px !important;
+        border: 0!important;
+        border-radius: 52px!important;
+        background: #2789fc;
+        color: #fff!important;
+        font-weight: 300!important;
+        text-transform: uppercase;
+        background-image: none!important;
+
+        &:hover {
+            border: 0;
+            background-color: #0053B3;
+        }
+    }
+}
