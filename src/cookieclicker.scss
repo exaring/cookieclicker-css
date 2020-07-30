@@ -24,12 +24,13 @@
             background: none !important;
         }
 
-        .cta-link {
+        .cta-link,
+        .text {
             a {
                 color: #2789fc !important;
 
                 &:hover {
-                    background-color: #0053B3 !important;
+                    color: #0053B3 !important;
                 }
             }
         }
