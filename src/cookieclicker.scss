@@ -18,6 +18,11 @@
     .cta-container {
         padding: 0 !important;
         width: auto !important;
+        background: none !important;
+
+        [class*="cta-"] {
+            background: none !important;
+        }
     }
 
     .message-button {
@@ -25,7 +30,6 @@
         padding: 10px 30px !important;
         border: 0 !important;
         border-radius: 52px !important;
-        // color: #fff !important;
         font-weight: 300 !important;
         text-transform: uppercase;
         background-image: none !important;
