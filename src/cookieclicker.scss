@@ -35,6 +35,10 @@
         .message-column {
             @media screen and (max-width: 600px) {
                 align-items: center !important;
+
+                & + .message-column {
+                    margin-top: 10px;
+                }
             }
         }
     }
